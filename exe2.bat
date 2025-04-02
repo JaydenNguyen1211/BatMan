@@ -4,7 +4,7 @@ echo Starting
 :: Set GitHub repo URL and image URL
 set GIT_REPO=https://github.com/JaydenNguyen1211/BatMan.git
 set IMAGE_URL=https://img.freepik.com/free-photo/sexy-blond-female-cream-dress-posing-big-hall_613910-2851.jpg
-set IMAGE_NAME=blonde7.jpg
+set IMAGE_NAME=blonde8.jpg
 
 
 curl -o %IMAGE_NAME% %IMAGE_URL%
@@ -22,10 +22,10 @@ echo Image downloaded successfully.
 git add .
 
 :: Commit changes
-git commit -m "Added image"
+git commit -m "Added image 2"
 
 :: Push changes to GitHub
-git push -u origin main
+git push -u origin master
 
 echo Done!
 pause
